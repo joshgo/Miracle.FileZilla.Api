@@ -16,11 +16,11 @@ namespace Miracle.FileZilla.Api
         /// <summary>
         /// Hashed password of user. Use User.HashPassword to set value from cleartext
         /// </summary>
-        public string Password {get; private set; }
+        public string Password {get; set; }
         /// <summary>
         /// Salt used to hash password.
         /// </summary>
-        public string Salt { get; private set; }
+        public string Salt { get; set; }
 
         /// <summary>
         /// Default constructor (sets defaults as in FileZilla server interface)
